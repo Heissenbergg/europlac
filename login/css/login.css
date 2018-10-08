@@ -1,0 +1,36 @@
+#mainWrapper { position: absolute; top: 90px; left: 0; margin: 0; padding: 0; width: 100%; height: calc(100% - 90px); font-family: 'Roboto', sans-serif; }
+
+#mainWrapper #mainWrapperLoginWrapper { position: absolute; left: 35%; right: 35%; top: 70px; min-width: 30%; width: 30%; height: 350px; margin: 0; padding: 0; }
+
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput { position: absolute; top: 15%; left: 0; width: 100%; height: 70%; }
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput #mainWrapperLoginWrapperLoginInputEmail { position: absolute; left: 0; top: 0; width: 100%; height: 70px; padding: 0; margin: 0;  }
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput #mainWrapperLoginWrapperLoginInputEmail #mainWrapperLoginWrapperLoginInputEmailPar { padding: 0; padding-bottom: 10px; margin: 0; }
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput #mainWrapperLoginWrapperLoginInputEmail #mainWrapperLoginWrapperLoginInputEmailInput { outline: none; width: calc(100% - 12px); height: 50px; padding: 0; margin: 0; padding-left: 10px; border: 1px solid #00c0cd;; border-radius: 3px; font-size: 16px; }
+
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput #mainWrapperLoginWrapperLoginInputPassword { position: absolute; left: 0; top: 80px; width: 100%; height: 70px; padding: 0; margin: 0; padding-bottom: 10px; }
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput #mainWrapperLoginWrapperLoginInputPassword #mainWrapperLoginWrapperLoginInputPasswordPar { padding: 0; padding-top: 10px; padding-bottom: 10px; margin: 0; } 
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput #mainWrapperLoginWrapperLoginInputPassword #mainWrapperLoginWrapperLoginInputPasswordInput { outline: none; width: calc(100% - 12px); height: 50px; padding: 0; padding-left: 10px; margin: 0; border: 1px solid #00c0cd; border-radius: 3px; }
+
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput #mainWrapperLoginWrapperLoginInputSubmit { position: absolute; left: 0; top: 180px; width: 100%; height: 70px; padding: 0; margin: 0; }
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput #mainWrapperLoginWrapperLoginInputSubmit #mainWrapperLoginWrapperLoginInputSubmitInput { background: #00c0cd; outline: none; padding: 0; margin: 0; margin-top: 10px; width: 100%; height: 50px; color: #fff; border: none; border-radius: 3px; font-size: 20px; transition: background-color 0.5s ease; }
+
+#mainWrapper #mainWrapperLoginWrapper #mainWrapperLoginWrapperLoginInput #mainWrapperLoginWrapperLoginInputSubmit #mainWrapperLoginWrapperLoginInputSubmitInput:hover { cursor: pointer; background: #12aeb8; }
+
+
+/* mobilna verzija */
+
+@media screen and (max-width: 850px){
+    #mainWrapper #mainWrapperLoginWrapper { left: 10px; top: 0; width: calc(100% - 20px); }
+    p { text-align: center; }
+}
+
+
+
+
+
+
+
+
+
+
+

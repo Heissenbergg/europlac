@@ -1,0 +1,2 @@
+#backgroundImage{position: fixed; left: 0px; top:60px; width: 100%; z-index: -10; height: calc(100% - 60px);}
+#backgroundImage img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; height: 100%; margin: auto; }

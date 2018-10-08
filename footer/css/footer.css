@@ -1,0 +1,165 @@
+
+footer{
+    position: absolute;
+    left: 0px;
+    width:100%;
+    height:360px;
+    background:#333;
+    top: calc(80% + 1600px);
+}
+
+footer #firstFooterPart{
+    position: absolute;
+    left: 50px;
+    top: 20px;
+    width:calc(66% - 50px);
+    height:280px;
+}
+
+footer #firstFooterPart table{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+}
+footer #firstFooterPart table tr td{
+    width:25%;
+    height:40px;
+    text-align:center;
+}
+footer #firstFooterPart table tr td h4{
+    margin:0px;
+    padding:0px;
+    padding-bottom:20px;
+    font-size:18px;
+    border-bottom:1px solid rgba(255,255,255,0.2);
+    color:#fff;
+    font-weight: lighter;
+}
+footer #firstFooterPart table tr td a{
+    margin:0px;
+    padding:0px;
+    color:#fff;
+    text-decoration: none;
+    font-size:14px;
+    margin-top: 20px;
+    display: block;
+}
+footer #firstFooterPart table tr td a:hover{
+    color:#00c0cd;
+}
+footer #secondFooterPart{
+    position: absolute;
+    right: 50px;
+    top: 20px;
+    width:28%;
+    height:280px;
+    /*background:#00c0cd; */
+}
+footer #secondFooterPart h4{
+    margin:0px;
+    padding:0px;
+    font-size:20px;
+    color:#fff;
+    font-weight: lighter;
+}
+
+footer #secondFooterPart p{
+    color:#fff;
+    font-size: 14px;
+    font-weight: lighter;
+}
+footer #secondFooterPart #footerInput{
+    position: absolute;
+    bottom:100px;
+    width:calc(100% - 160px);
+    height:40px;
+    border:none;
+}
+footer #secondFooterPart #footerSubmit{
+    position: absolute;
+    bottom: 100px;
+    right: 0px;
+    width:160px;
+    border:none;
+    height:40px;
+    background:#00c0cd;
+    border-bottom:1px solid #fff;
+    color:#fff;
+    font-size:16px;
+}
+
+footer #secondFooterPart #footerSubmit:hover{
+    cursor: pointer;
+}
+
+footer #secondFooterPart #secondFooterPartSocial{position: absolute; left: 0px; bottom: 20px; width: 100%; height: 50px; }
+footer #secondFooterPart #secondFooterPartSocial a{color: #fff; text-decoration: none; font-size: 25px; margin-right: 20px;}
+
+footer #thirdFooterPart {
+    position: absolute;
+    left: 50px;
+    top: 300px;
+    width: calc(100% - 100px);
+    height:60px;
+    border-top:1px solid rgba(255,255,255,0.2);
+}
+
+footer #thirdFooterPart #thirdFooterPartOptions{position: absolute; left: 0px; width: calc(100% - 500px); top: 0px; height: 50px; }
+footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption{position: relative; left: 0px; top: 0px; height: 100%; display: inline-block; margin-right: 30px; }
+footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption2{display: none;}
+footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption i{position: absolute; left: 0px; top: 20px; color:#fff; font-size: 18px;}
+footer #thirdFooterPart p{color: #fff;  margin-top: 5px; margin-left: 30px; margin-top: 20px;}
+
+footer #thirdFooterPart #thirdFooterPartOptionsCopy{position: absolute; right: 0px; top: 0px; width: 500px; height: 100%; text-align: right;}
+footer #thirdFooterPart #thirdFooterPartOptionsCopy p{color: #fff; margin-top: 5px; margin-left: 30px; margin-top: 20px;}
+footer #thirdFooterPart #thirdFooterPartOptionsCopy p year{color:#00c0cd;}
+
+footer #thirdFooterPart #thirdFooterPartOptionsCopy p made{font-size:14px; margin-right: 30px;}
+
+
+
+@media screen and (max-width: 1250px){
+    footer{top: calc(80% + 1700px);}
+    footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption p{font-size:14px;}
+    footer #thirdFooterPart #thirdFooterPartOptions{width:calc(100% - 400px);}
+    footer #thirdFooterPart #thirdFooterPartOptionsCopy p{font-size:14px;}
+    
+    footer #firstFooterPart{width:calc(100% - 100px);}
+    footer #secondFooterPart{display: none;}
+}
+
+@media screen and (max-width: 1100px){
+    footer #firstFooterPart{display: none;}
+    
+    footer #thirdFooterPart{
+        top: 20px;
+        border:none;
+    }
+    
+    footer #thirdFooterPart #thirdFooterPartOptions{height: 200px; width: 100%; text-align:center;}
+    footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption{display: block; margin-top:5px; height:40px;  width: 300px; left:calc(50% - 150px);}
+    footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption2{display: block; height: 100px;}
+    footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption i{display: none;}
+    footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption p{margin:0px; font-size:18px;}
+    footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption2 p{font-size:26px;}
+    
+    footer #thirdFooterPart #thirdFooterPartOptionsCopy{top: 240px; right: calc(50% - 250px); margin:0px; text-align:center;height: 100px;}
+}
+
+@media screen and (max-width: 1000px){
+    footer{top: calc(80% + 1180px);}
+}
+
+@media screen and (max-width: 800px){
+    footer{top: calc(80% + 2120px);}
+    footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption2{display: block; height: 80px}
+    footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption p{margin:0px; font-size:14px;}
+    footer #thirdFooterPart #thirdFooterPartOptions .thirdFooterPartOptionsOption2 p{font-size:26px;}
+    footer #thirdFooterPart #thirdFooterPartOptionsCopy{width: 100%; left: 0px;}
+    footer #thirdFooterPart #thirdFooterPartOptionsCopy p{font-size:12px;}
+    footer #thirdFooterPart #thirdFooterPartOptionsCopy p made{margin:0px;}
+    footer #thirdFooterPart #thirdFooterPartOptionsCopy p span{width: 100%; display: block; margin-top: 10px;}
+}

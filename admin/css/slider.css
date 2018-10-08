@@ -1,0 +1,22 @@
+#allSliders{position: absolute; left: 360px; width: calc(100% - 370px); top: 80px; height: auto;}
+
+#allSliders .imagePart{position: relative; left: 0px; top: 0px; width: 100%; height: 40px; border:1px solid rgba(0,0,0,0.1);}
+#allSliders .imagePart .imagePartName{position: absolute; left: 0px; top: 0px; width: calc(100% - 360px); height: 40px; border-right: 1px solid rgba(0,0,0,0.1);}
+#allSliders .imagePart .imagePartName h4{margin: 0px; margin-left: 20px; margin-top: 12px;}
+
+#allSliders .imagePart .imageDeletePart{position: absolute; right: 180px; border-right: 1px solid rgba(0,0,0,0.1); top: 0px; width: 180px;  height: 40px;}
+#allSliders .imagePart .imageDeletePart a{color: #333; text-decoration: none; position: absolute; width: 100%; text-align: center; margin-top: 12px;}
+
+
+
+#allSliders .imagePart .imagePartEdit{position: absolute; right: 0px; top: 0px; width: 180px;  height: 40px;}
+#allSliders .imagePart .imagePartEdit a{color: #333; text-decoration: none; position: absolute; width: 100%; text-align: center; margin-top: 12px;}
+
+
+
+
+
+
+
+
+

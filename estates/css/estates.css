@@ -1,0 +1,121 @@
+#estateImage{position: fixed; left: 0px; top: 60px; width: 350px; height: calc(100% - 60px); overflow:hidden;}
+#estateImage img{position: absolute; top: 0px; height: 100%; left:-350px;}
+
+#estateLeftSquare{position: fixed; left: 150px; width: 200px; height: 200px; background:#fff; display: flex; justify-content:center; align-content:center; flex-direction:column;  top: 260px; border:1px solid rgba(0,0,0,0.2); border-right:none; text-align:right;}
+#estateLeftSquare h1{ margin-right:20px; font-size:35px;}
+#estateLeftSquare img{position: absolute; left:0px; top:0px; right: 0px; bottom: 0px; width: 140px; height: 140px; margin:auto;}
+
+#estateHeader{position: fixed; right: 0px; top: 60px; width: calc(100% - 350px); height: 200px; overflow:hidden; border-left:1px solid rgba(0,0,0,0.2); border-bottom:1px solid rgba(0,0,0,0.2); }
+#estateHeader #searchOptions{position: absolute; right: 20px; top: 60px; width: 240px; height: 40px; border:1px solid rgba(0,0,0,0.1);}
+#estateHeader #searchOptions #searchOptionsID,
+#estateHeader #searchOptions #searchOptionsSearch,
+#estateHeader #searchOptions #searchOptionsSrc{position: absolute; left: 0px; top: 0px; width: 40px; height: 40px; }
+#estateHeader #searchOptions #searchOptionsID:hover,
+#estateHeader #searchOptions #searchOptionsSearch:hover{cursor: pointer;}
+#estateHeader #searchOptions #searchOptionsID{left:40px;}
+#estateHeader #searchOptions #searchOptionsSrc{left: 80px; display: none;}
+#estateHeader #searchOptions #searchOptionsID p{ font-weight: bold;  font-size:18px; margin-left:10px; margin-top:6px;}
+#estateHeader #searchOptions #searchOptionsSearch i,
+#estateHeader #searchOptions #searchOptionsSrc i{font-size:20px; margin-left:10px; margin-top:10px;}
+
+
+#estateHeader #searchOptions #searchOptionsSubmit{position: absolute; right: 0px; top: 0px; width: 160px; text-align:center; height: 40px;}
+#estateHeader #searchOptions #searchOptionsSubmit p{ margin:0px; font-size:18px; margin-top:6px;}
+#estateHeader #searchOptions #searchOptionsSubmit p:hover{cursor: pointer; color:#00c0cd;}
+
+#estateHeader #searchForms{position: absolute; top: 60px; left: 20px; width: calc(100% - 282px); height: 40px; border:1px solid rgba(0,0,0,0.1); border-right:none;}
+#estateHeader #searchForms i{font-size:20px; margin-left:10px; margin-top:10px; color:#333;}
+#estateHeader #searchForms input{position: absolute; left: 0px; top: 0px; width: calc(100% - 60px);  border:none; margin:none; padding:none;padding-left:20px; height: 40px;  outline:none; left:40px;}
+
+
+#estateHeader #categories{position: absolute; bottom: 20px; left:20px; height: 50px; width:calc(100% - 40px);}
+#estateHeader #categories .singleCat{position: relative; left: 0px; top: 0px; height: 100%; margin-right:30px; display: inline-block;}
+#estateHeader #categories .singleCat a{text-decoration: none; color:#333;  font-size:18px; margin-top:12px; display: block;}
+
+/*** END OF HEADER ***/
+
+#estatesBody{position: fixed; right: 0px; bottom: 0px; width: calc(100% - 350px); overflow:auto; height: calc(100% - 261px); border-left:1px solid rgba(0,0,0,0.2);}
+#estatesBody .singleEstate{position: relative; left: 20px; top: 20px; width: calc(100% - 40px); height: 200px; border:1px solid rgba(0,0,0,0.1);}
+#estatesBody .singleEstate2{border-top:0px;}
+
+#estatesBody .singleEstate .singleEstateImage{position: absolute; right: 0px; top: 0px; width: 300px; height: 100%; overflow:hidden;}
+#estatesBody .singleEstate .singleEstateImage img{position: absolute; left: 0px; top:-20px; right:0px; width:100%; margin:auto;}
+
+#estatesBody .singleEstate .singleEstateDesc{position: absolute; left: 0px; top: 0px; width: calc(100% - 300px); height: 100%;}
+#estatesBody .singleEstate .singleEstateDesc .singleEstateDescValue{position: absolute; left: 0px; top: 0px; width: 100%; height: 60px; }
+#estatesBody .singleEstate .singleEstateDesc .singleEstateDescValue h4{ font-size:20px; margin-left:20px; margin-top:20px; font-family:'Roboto', sans-serif; font-weight:bold;}
+#estatesBody .singleEstate .singleEstateDesc .singleEstateDescValue h4 a{text-decoration: none; color:#333; font-family:'Roboto', sans-serif; font-weight:bold;}
+
+#estatesBody .singleEstate .singleEstateDesc .singleEstateDescDes{position: absolute; left: 20px; bottom: 20px; width: 100%;  height: 50px;}
+#estatesBody .singleEstate .singleEstateDesc .singleEstateDescDes .aditionalOptions{position: relative; left: 0px; top: 0px; margin-right:30px; height: 100%; display: inline-block;}
+#estatesBody .singleEstate .singleEstateDesc .singleEstateDescDes .aditionalOptions img{position: absolute; color:#00c0cd; width:20px; margin-top:15px;}
+
+#estatesBody .singleEstate .singleEstateDesc .singleEstateDescDes .aditionalOptions p{margin-left:30px; }
+
+
+/*** END OF BODY ***/
+
+#estatesBody .pages{position: relative; right: -20px; top: 40px; width: calc(100% - 40px); height: 40px; text-align:right;}
+#estatesBody .pages .pagesNumber{position: relative; right: 0px; top: 0px; width: 30px; height: 30px; background:#333; border-radius: 1px; text-align:center; float:right; display: inline-block; margin-left:1px;}
+#estatesBody .pages .pagesNumber:hover{background:#00c0cd; cursor: pointer;}
+#estatesBody .pages .activePage{background:#fff; border:1px solid rgba(0,0,0,0.1); width: 28px; height: 28px;}
+#estatesBody .pages .pagesNumber p{ color:#fff; margin-top: 4px; font-size:14px;}
+#estatesBody .pages .pagesNumber p a{color:#fff; text-decoration: none;}
+#estatesBody .pages .activePage p a{color:#333;}
+#estatesBody .pages .pagesNumber:hover p{color:#fff;}
+
+@media screen and (max-width: 1350px){
+    #estateImage{width:250px;}
+    #estateHeader,
+    #estatesBody{width: calc(100% - 250px);}
+    #estateLeftSquare{left: 50px;}
+}
+
+
+@media screen and (max-width: 1100px){
+    #estateImage,
+    #estateLeftSquare{display: none;}
+    #estateHeader,
+    #estatesBody{width: calc(100%);}
+    #topMenuWrapper #mobileSearchIcon{display: block;}
+}
+
+@media screen and (max-width: 800px){
+    #estateHeader{z-index: 800; background:#fff; height: 120px; border:none;}
+    #estateHeader #searchOptions,
+    #estateHeader #searchForms{top: 40px;}
+    #estateHeader #categories{display: none;}
+    #estatesBody{height: calc(100% - 161px); background:#fff;}
+}
+
+@media screen and (max-width: 800px){
+    #estateHeader #searchForms{width: calc(100% - 162px);}
+    #estateHeader #searchForms i{display: none;}
+    #estateHeader #searchForms input{left: 0px; width: calc(100% - 20px);}
+    #estateHeader #searchOptions{width: 120px;}
+    #estateHeader #searchOptions #searchOptionsSrc{display: block;}
+    #estateHeader #searchOptions #searchOptionsSubmit{display: none;}
+    
+    #estatesBody .singleEstate{height: 540px;}
+    #estatesBody .singleEstate .singleEstateImage{width: 100%; height: 400px;}
+    #estatesBody .singleEstate .singleEstateDesc{width: calc(100% - 40px);}
+    #estatesBody .singleEstate .singleEstateDesc .singleEstateDescValue{top:420px;}
+    #estatesBody .singleEstate .singleEstateDesc .singleEstateDescDes{}
+}
+
+@media screen and (max-width: 600px){
+    #estatesBody .singleEstate{height: 500px;}
+    #estatesBody .singleEstate .singleEstateImage{height: 360px;}
+    #estatesBody .singleEstate .singleEstateDesc .singleEstateDescValue{top:360px;}
+    #estatesBody .singleEstate .singleEstateImage img{width:auto; max-width: 100%; max-height: 100%;}
+}
+
+@media screen and (max-width: 500px){
+    #estatesBody .singleEstate{height: 400px;}
+    #estatesBody .singleEstate .singleEstateImage{height: 300px;}
+    #estatesBody .singleEstate .singleEstateDesc .singleEstateDescValue{top:300px;}
+    #estatesBody .singleEstate .singleEstateDesc .singleEstateDescValue h4{font-size:18px; margin-top: 0px;}
+    #estatesBody .singleEstate .singleEstateDesc .singleEstateDescDes .aditionalOptions{margin-right: 15px;}
+    #estatesBody .singleEstate .singleEstateDesc .singleEstateDescDes .aditionalOptions p{font-size:14px; margin-left: 15px;}
+    #estatesBody .singleEstate .singleEstateDesc .singleEstateDescDes .aditionalOptions img{width: 14px; margin-top: 18px;}
+}

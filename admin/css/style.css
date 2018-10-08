@@ -1,0 +1,322 @@
+#leftMenu{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width:350px;
+    height: 100%;
+    background:#333;
+}
+
+#leftMenu ul{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    margin:0px;
+    padding:0px;
+}
+
+#leftMenu ul li {
+    width: 100%;
+    height: 30px;
+    padding-top:10px;
+    list-style:none;
+    padding-left: 30px;
+    border-bottom:1px solid rgba(255,255,255,0.3);
+}
+
+#leftMenu ul li h4{
+    margin:0px;
+    color:#fff;
+    font-size:30px;
+    margin-top:10px;
+}
+
+#leftMenu ul li a{
+    text-decoration: none;
+    color:#fff;
+}
+
+#topNav{
+    border-left:1px solid rgba(255,255,255,0.3);
+    z-index: 10000000;
+    position: fixed;
+    left: 350px;
+    top:0px;
+    width: calc(100% - 350px);
+    height: 60px;
+    background:#333;
+}
+
+#topNav .navItems{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+    height: 40px;
+}
+
+#topNav .navItems a{
+    text-decoration: none;
+    color:#fff;
+}
+#topNav .navItems a p{
+    margin:0px;
+    margin-top:8px;
+    text-align:center;
+}
+
+#topNav #bellIcon{
+    position: absolute;
+    right: 110px;
+    top: 10px;
+    width: 20px;
+}
+
+#topNav #bellIcon:hover{cursor: pointer;}
+
+#topNav #notificationNumber{
+    position: absolute;
+    right: 90px;
+    top: 0px;
+    height: 15px;
+    background: red;
+    font-size: 12px;
+    color:#fff;
+    padding: 2px 5px;
+    border-radius: 5px;
+    display: none;
+}
+
+#topNav #clock{
+    position: absolute;
+    top: -5px;
+    right: 150px;
+    color:#fff;
+    width: 200px;
+}
+
+#notificationArea{
+    margin-right: -350px;
+    position: fixed;
+    right: 0px;
+    overflow-y: auto;
+    top: 60px;
+    width: 350px;
+    height: calc(100% - 60px);
+    background: rgba(0,0,0,0.8);
+    z-index: 10000000000000000000;
+    border-left: 2px solid #000;
+    border-top:1px solid #fff;
+}
+
+#notificationArea ul{
+    margin: 0px;
+    padding: 0px;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+}
+
+#notificationArea ul li{
+    width: 90%;
+    margin-left: 5%;
+    min-height: 50px;
+    list-style: none;
+    border-bottom: 1px solid #fff;
+}
+
+#notificationArea ul li p{
+    color:#fff;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#notificationArea ul li .nameOfUser{font-size: 18px;}
+#notificationArea ul li p a{color:#fff; }
+span{color:red;}
+
+
+
+
+
+
+section{
+    position: absolute;
+    left: 350px;
+    top:60px;
+    width: calc(100% - 350px);
+    height: 800px;
+}
+
+section #firstCircle, section #secondCircle, section #thirdCircle{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top:50px;
+    border: 15px solid #ef5350;
+    border-radius: 50%;
+}
+section #firstCircle{
+    left: 100px;
+}
+section #secondCircle{
+    left:calc(50% - 100px);
+}
+
+section #thirdCircle{
+    right:100px;
+}
+
+section #firstCircle h4, section #secondCircle h4, section #thirdCircle h4{
+    width:200px;
+    text-align:center;
+    font-size:40px;
+    margin:0px;
+    margin-top:70px;
+}
+
+section #header{
+    font-size:50px;
+    position:absolute;
+    left:50px;
+    margin:0px;
+    padding:0px;
+    top:20px;
+}
+
+section table{
+    position:absolute;
+    left:50px;
+    top:100px;
+    width:calc(100% - 50px);
+    margin:0px;
+}
+
+section table tr td{
+    border-bottom:1px solid #333;
+    height:30px;
+    width:20%;
+    text-align:center;
+}
+
+section table tr .oglasis{
+    height: 150px;
+    width: 16.5%;
+}
+
+section table tr .oglasis #uredi, section table tr .oglasis #obrisi,section table tr .oglasis2 #Izdvoji{
+    background:#79b8f6;
+    width: 60%;
+    height: 40px;
+    border-radius: 20px;
+    color:#fff;
+}
+section table tr .oglasis #uredi{
+    text-align:center;
+}
+
+section table tr .oglasis #obrisi{
+    background:#ef5350;
+}
+section table tr .oglasis2{
+    width:14%;
+}
+section table tr .oglasis2 #Izdvoji{
+    background:#52d46a;
+}
+section table tr td img{
+    width:100%;
+    height: 100%;
+}
+
+section #forma{
+    position:absolute;
+    left:50px;
+    top:100px;
+    width:90%;
+}
+
+section #forma input{
+    width:50%;
+    outline:none;
+}
+
+section #forma textarea{
+    width:80%;
+    height:400px;
+    resize:none;
+}
+
+section #forma #submitForma{
+    width:400px;
+    height:40px;
+    border-radius:20px;
+    border:none;
+    background:#ef5350;
+    color:#fff;
+    font-size:20px;
+}
+
+section #slikeee{
+    position: absolute;
+    width:calc(100% - 40px);
+    left:20px;
+    top:30px;
+    height:165px;
+    overflow:auto;
+}
+section #slikeee ul{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    height: 120px;
+    width:7500px;
+    margin:0px;
+    padding:0px;
+}
+
+section #slikeee ul li{
+    list-style:none;
+    display:inline-block;
+}
+
+section #slikeee ul li input{
+    position: absolute;
+}
+section #slikeee img{
+    height: 120px;
+    width:200px;
+}
+
+
+section #editList{
+    position: absolute;
+    left: 20px;
+    top: 350px;
+    margin:0px;
+    width: calc(100% - 50px);
+    padding:0px;
+}
+
+section #editList .firstPart{
+    width:300px;
+}
+
+section #editList .secondpart{
+    width: calc(100% - 300px);
+    text-align:left;
+}
+
+section #editList .secondpart input{
+    width: 90%;
+    margin-left:5%;
+    background:none;
+    border:none;
+    color:red;
+}
+
+section #uploadpicturesform{
+    position: absolute;
+    left: 20px;
+    top: 210px;
+}

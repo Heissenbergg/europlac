@@ -1,0 +1,45 @@
+#menu{position:absolute; display: block; left:0px; top:60px; width:350px; height:calc(100% - 60px); background: #fff; }
+
+#body{position:absolute; left: 350px; top:60px; width:calc(100% - 350px); height:calc(100% - 60px); border-left: 1px solid rgba(0,0,0,0.2); }
+
+#mobileIconUsluge { display: none; position: absolute; top: 0; right: 0; width: 40px; height: 40px; z-index: 10000; }
+#mobileIconUsluge img { width: 30px; height: 30px; margin-top: 15px; margin-right: 20px; }
+
+
+/*** menu css ***/
+#menu #menuHeader { position: absolute; left: 100px; top: 110px; width: calc(100% - 100px); height: 50px; }
+#menu #menuHeader h4 { margin: 0; padding: 0; margin-top: 10px; margin-left: 10px; }
+
+#menu #menuBody { position: absolute; left: 100px; top: 160px; width: calc(100% - 100px); height: 240px; }
+#menu #menuBody #menuBodyItem { position: relative; width: 100%; height: 40px; background: white; }
+#menu #menuBody #menuBodyItem #menuBodyItemIcon { position: absolute; top: 0; left: 0; width: 40px; height: 40px; }
+#menu #menuBody #menuBodyItem #menuBodyItemIcon img { margin-left: 10px; margin-top: 10px; width: 20px; height: 20px; }
+
+#menu #menuBody #menuBodyItem #menuBodyItemTitle { position: absolute; top: 0; left: 40px; width: calc(100% - 40px); height: 40px; }
+#menu #menuBody #menuBodyItem #menuBodyItemTitle p { margin: 0; padding: 0; margin-top: 10px; margin-left: 5px; font-size: 14px; }
+#menu #menuBody #menuBodyItem #menuBodyItemTitle p:hover,
+#menu #menuBody #menuBodyItem #menuBodyItemTitle a:hover{ cursor: pointer; color: #00c0cd; }
+
+#menu #menuBody #menuBodyItem #menuBodyItemTitle a { position: absolute; text-decoration: none; color: #000; margin-top: 0; margin-left: 5px; font-size: 14px; }
+#menu #menuBody #menuBodyItem #menuBodyItemTitle #kontakt { position: absolute; margin-top: 0; }
+/*** end menu css ***/
+
+#body #bodyWrapper { position: absolute; left: 50px; top: 50px; width: calc(100% - 100px); height: calc(100% - 50px); overflow: auto; }
+#body #bodyWrapper #bodyWrapperHeader { position: absolute; top: 0; left: 0; width: 100%; height: 80px; }
+#body #bodyWrapper #bodyWrapperHeader h1 { margin: 0; padding: 0; margin-top: 15px; }
+#body #bodyWrapper #bodyWrapperContent { position: absolute; top: 80px; left: 0; width: 100%; height: calc(100% - 80px); background: white; }
+
+/*
+#body .cimeSeBavimo { display: none; }
+#body .gradjevinskeDozvole { display: none; }
+#body .savjetiPriProdaji { display: none; }
+#body .onama { display: block; }
+*/
+
+@media screen and (max-width: 1100px){
+    #mobileIconUsluge { display: block; }
+    #menu{left:calc(100% + 300px); z-index:100; transition: all 0.5s; border-left: 1px solid rgba(0,0,0,0.3); }
+    #menu #menuHeader { left: 50px; }
+    #menu #menuBody { left: 50px; }
+    #body{left:0; width:calc(100% - 20px);}
+}

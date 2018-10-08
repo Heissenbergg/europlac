@@ -1,0 +1,112 @@
+#singleEstate{position: fixed; right: 0px; bottom: 0px; width: calc(100% - 350px); overflow:auto; height: calc(100% - 261px); border-left:1px solid rgba(0,0,0,0.2); }
+
+#singleEstate #singleEstateImages{position: absolute; left: 20px; top: 20px; width: calc(100% - 40px); height: 520px; -webkit-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75); }
+#singleEstate #singleEstateImages .estateImage{position: absolute; left: 0px; top: 20px; width: 100%; height: calc(100% - 40px); overflow:hidden;}
+#singleEstate #singleEstateImages .estateImage img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; margin:auto;}
+
+#singleEstate #singleEstateImages .imageArrowLeft{width: 80px; height: 80px; position: absolute; left: 20px; top: calc(50% - 40px); background:rgba(0,0,0,0.1);}
+#singleEstate #singleEstateImages .imageArrowRight{width: 80px; height: 80px; position: absolute; right: 20px; top: calc(50% - 40px); background:rgba(0,0,0,0.1);}
+#singleEstate #singleEstateImages .imageArrowLeft:hover,
+#singleEstate #singleEstateImages .imageArrowRight:hover{background:rgba(0,0,0,0.2); cursor: pointer;}
+
+#singleEstate #singleEstateImages .imageArrowLeft img,
+#singleEstate #singleEstateImages .imageArrowRight img{position: absolute; left: 0px; top: 0px; right: 0px; bottom: 0px; width: 50px; margin:auto;}
+
+#singleEstate #singleEstateMainDesc{position: absolute; left: 20px; top: 541px; width:calc(100% - 40px); height: 80px; background:#fff; -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75); box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);}
+#singleEstate #singleEstateMainDesc .singleEstateMainDescOption{position: absolute; left: 0px; top: 0px; height: 100%;}
+#singleEstate #singleEstateMainDesc .singleEstateMainDescOption p{ font-size:20px; margin-left:20px; margin-top:28px; font-weight:bold; font-family:'Roboto', sans-serif;}
+
+#singleEstate #singleEstateMainDesc .singleEstateMainDescIcon{position: absolute; right: 20px; top: 20px; width: 40px; height: 40px;}
+#singleEstate #singleEstateMainDesc .singleEstateMainDescIcon1{right:60px;}
+#singleEstate #singleEstateMainDesc .singleEstateMainDescIcon2{right: 100px;}
+
+#singleEstate #singleEstateMainDesc .singleEstateMainDescIcon img{position: absolute; left:0px; top:0px; right:0px; bottom:0px; margin:auto; width:20px; height: 20px;}
+#singleEstate #singleEstateMainDesc .singleEstateMainDescIcon img:hover{cursor: pointer;}
+
+#singleEstate #singleEstateMainDesc #singleEstateID{position: absolute; right: 150px; width:100px; height: 40px; top: 20px; text-align:right;}
+#singleEstate #singleEstateMainDesc #singleEstateID p{ font-size:16px; margin-left:0px; margin-top:12px; font-weight:bold;  font-family:'Roboto', sans-serif;}
+
+#singleEstate #singleEstateMainDesc #singleEstatePrice{position: absolute; right: 240px; top: 20px; width:200px; height: 40px; text-align:right;}
+#singleEstate #singleEstateMainDesc #singleEstatePrice p{ font-size:16px; margin-left:0px; margin-top:12px; font-weight:bold;  font-family:'Roboto', sans-serif;}
+
+
+#singleEstate #singleEstateAllOfThem{position: absolute; left: 20px; top: 622px; width: calc(100% - 40px); height: auto; padding-bottom:50px; margin-bottom: 20px; background:#fff; -webkit-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75); -moz-box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75); box-shadow: 0px 1px 5px 0px rgba(0,0,0,0.75);}
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions{position:relative; left: 20px; top:20px; margin-top:10px; width: calc(100% - 40px); height: 40px; }
+
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsLeft{position: absolute; left: 0px; top: 0px; width: calc(50% - 20px); height: 100%; border:1px solid rgba(0,0,0,0.1); border-radius: 2px;}
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsLeft .singleEstateAllOfThemOptionsLeftFirst{position: absolute; left: 0px; top: 0px; width: 50%; height: 100%; border-right:1px solid rgba(0,0,0,0.1);}
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsLeft .singleEstateAllOfThemOptionsLeftSecond{position: absolute; right: 0px; top: 0px; height: 100%; width: 50%;}
+
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsLeft .singleEstateAllOfThemOptionsLeftFirst p,
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsLeft .singleEstateAllOfThemOptionsLeftSecond p{ text-align:center; margin-top:10px;}
+
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsRight{position: absolute; right: 0px; top: 0px; width: calc(50% - 20px); height: 100%; border:1px solid rgba(0,0,0,0.1); border-radius: 2px;}
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsRight .singleEstateAllOfThemOptionsRightFirst{position: absolute; left: 0px; top: 0px; width: 50%; height: 100%; border-right:1px solid rgba(0,0,0,0.1);}
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsRight .singleEstateAllOfThemOptionsRightSecond{position: absolute; right: 0px; top: 0px; height: 100%; width: 50%;}
+
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsRight .singleEstateAllOfThemOptionsRightFirst p,
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsRight .singleEstateAllOfThemOptionsRightSecond p{ text-align:center; margin-top:10px;}
+
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions h4{ font-size:20px; font-weight: lighter;  position: absolute; margin-top:8px;}
+
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemHugeDesc{position:relative; left: 20px; top:20px; margin-top:10px; width: calc(100% - 40px); border:1px solid rgba(0,0,0,0.1);}
+#singleEstate #singleEstateAllOfThem .singleEstateAllOfThemHugeDesc p{ margin:10px; font-size:14px; font-family: 'Roboto', sans-serif; font-size:15px;}
+
+#singleEstate #singleEstateAllOfThem .videoandMap{position:relative; left: 20px; top:20px; height:500px; margin-top:10px; width: calc(100% - 40px); border:1px solid rgba(0,0,0,0.1);}
+
+
+@media screen and (max-width: 1350px){
+    #singleEstate {width: calc(100% - 250px);}
+}
+
+@media screen and (max-width: 1100px){
+    #singleEstate {width: calc(100%);}
+}
+
+@media screen and (max-width: 800px){
+    #singleEstate {height: calc(100% - 162px);}
+    #singleEstate #singleEstateImages{height: 420px;}
+    #singleEstate #singleEstateImages .estateImage img{max-width: 100%; max-height: 100%;}
+    
+    #singleEstate #singleEstateImages .imageArrowLeft{left: 10px; width: 50px; height: 50px; top: calc(50% - 25px); background:rgba(255,255,255,0.4);}
+    #singleEstate #singleEstateImages .imageArrowRight{right: 10px; width: 50px; height: 50px; top: calc(50% - 25px);  background:rgba(255,255,255,0.4);}
+
+    #singleEstate #singleEstateImages .imageArrowLeft img,
+    #singleEstate #singleEstateImages .imageArrowRight img{width: 30px;}
+    
+    #singleEstate #singleEstateMainDesc{top: 441px; height: 100px;}
+    #singleEstate #singleEstateMainDesc .singleEstateMainDescOption{height: 50px; width: 100%; text-align:center;}
+    #singleEstate #singleEstateMainDesc .singleEstateMainDescOption p{margin-top: 10px; font-size:16px;}
+    #singleEstate #singleEstateMainDesc #singleEstateID{right: 50%; width: 50%; top: 50px; height: 50px; text-align:center;}
+    #singleEstate #singleEstateMainDesc #singleEstatePrice{right: 0px; width: 50%; top: 50px; height: 50px; text-align:center;}
+    #singleEstate #singleEstateMainDesc #singleEstateID p,
+    #singleEstate #singleEstateMainDesc #singleEstatePrice p{font-size:14px;}
+    
+    #singleEstate #singleEstateAllOfThem{top: 542px;}
+    #singleEstate #singleEstateMainDesc .singleEstateMainDescIcon{display: none;}
+    
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions{height: 80px;}
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions2{height: 40px;}
+    
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsLeft{width: 100%;}
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsLeft .singleEstateAllOfThemOptionsLeftFirst{}
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsRight{width: 100%; top: 40px; border:none;}
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsRight .singleEstateAllOfThemOptionsRightFirst{border:none;}
+
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsLeft .singleEstateAllOfThemOptionsLeftFirst p,
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsLeft .singleEstateAllOfThemOptionsLeftSecond p,
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsRight .singleEstateAllOfThemOptionsRightFirst p,
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions .singleEstateAllOfThemOptionsRight .singleEstateAllOfThemOptionsRightSecond p{font-size:14px;}
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemOptions h4{text-align:center; position: absolute; width: 100%;}
+
+    #singleEstate #singleEstateAllOfThem .singleEstateAllOfThemHugeDesc p{text-align:center;}
+    #singleEstate #singleEstateAllOfThem .videoandMap{height: 300px; }
+}
+
+
+
+
+
+
+
+

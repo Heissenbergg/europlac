@@ -1,0 +1,170 @@
+#mainWrapper { position: absolute; top: 60px; left: 0; margin: 0; padding: 0; width: 100%; height: calc(100% - 60px); font-family: 'Roboto', sans-serif; }
+
+#mainWrapper #mainWrapperContactWrapper { position: absolute; top: 0; left: 0; margin: 0; padding: 0; width: 100%; height: 100%; }
+
+#mainWrapper #mainWrapperContactWrapper #header { position: absolute; top: 150px; left: 15%; width: 150px; height: 50px; color: #fff; z-index: 10000; }
+#mainWrapper #mainWrapperContactWrapper #header p { font-size: 20px; margin: 0; padding: 0; margin-top: 10px; }
+/* mapa */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperMap { background: #333; position: absolute; top: 0; left: 0; width: 100%; height: 60%; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperMap #mainWrapperContactWrapperMapHeader { position: absolute; bottom: 170px; left: 15%; width: 300px; height: 80px; color: #fff; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperMap #mainWrapperContactWrapperMapHeader #mainWrapperContactWrapperMapHeaderPar { padding: 0; padding-top: 20px; padding-left: 10px; margin: 0; font-size: 25px; font-weight: bold; color: #333; z-index: 10000; }
+
+
+/* kontakt forma */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm { background: #fff; position: absolute; bottom: 15%; left: 15%; right: 35%; width: 700px; height: 400px; -webkit-box-shadow: 0px 0px 31px -3px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 31px -3px rgba(0,0,0,0.75);
+box-shadow: 0px 0px 31px -3px rgba(0,0,0,0.75); }
+
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact { position: absolute; top: 20px; left: 20px; width: 60%; height: calc(100% - 20px); }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactHeader {  position: absolute; left: 0; top: 0; width: 100%; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactHeader #mainWrapperContactWrapperContactFormContactHeaderPar { padding: 0; padding-left: 25px; padding-top: 20px; margin: 0; font-size: 18px; color: #000; }
+/* lijevi podaci u kontakt formi, unos korisnika */
+/* info lijevi tab, input korisnika */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactLeftHalf {  position: absolute; left: 25px; top: 40px; width: calc(50% - 50px); height: 65%; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactLeftHalf #mainWrapperContactWrapperContactFormContactLeftHalfImeIPrezime { outline: none; width: calc(100% - 10px); height: 50px; padding: 0; margin: 0; margin-top: 20px; margin-bottom: 10px; padding-left: 10px; border: none; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 12px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactLeftHalf #mainWrapperContactWrapperContactFormContactLeftHalfBrojTelefona { outline: none; width: calc(100% - 10px); height: 50px; padding: 0; margin: 0; margin-top: 10px; margin-bottom: 10px; padding-left: 10px; border: none; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 12px; }
+
+/* info desni tab, input korisnika */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactRightHalf { position: absolute; left: 50%; top: 40px; width: calc(50% - 25px); height: 65%; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactRightHalf #mainWrapperContactWrapperContactFormContactRightHalfEmail { outline: none; width: calc(100% - 10px); height: 50px; padding: 0; margin: 0; margin-top: 20px; margin-bottom: 10px; padding-left: 10px; border: none; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 12px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactRightHalf #mainWrapperContactWrapperContactFormContactRightHalfCompany { outline: none; width: calc(100% - 10px); height: 50px; padding: 0; margin: 0; margin-top: 10px; margin-bottom: 10px; padding-left: 10px; border: none; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 12px; }
+
+/* unos poruke */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactMessage { position: absolute; bottom: 20px; left: 25px; width: calc(100% - 50px); height: 35%; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactMessage #mainWrapperContactWrapperContactFormContactMessageTextarea { outline: none; width: calc(100% - 10px); height: calc(100% - 25px); border: none; border-bottom: 1px solid rgba(0,0,0,0.1); resize: none; padding: 0; padding-left: 10px; margin: 0; font-size: 12px; }
+
+/* submit poruke */
+/*#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactMessage #mainWrapperContactWrapperContactFormContactMessageSubmit { padding: 0; margin: 0; width: 100%; height: 50px; border: none; border-bottom: 1px solid #00c0cd; color: #fff; background: #00c0cd; transition: background-color 0.5s ease; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactMessage #mainWrapperContactWrapperContactFormContactMessageSubmit:hover { cursor: pointer; background: #12aeb8; }
+*/
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactMessage #mainWrapperContactWrapperContactFormContactMessageSubmit { background: #00c0cd; position: absolute; bottom: 5px; right: 0; width: 50px; height: 50px; border-radius: 50%; z-index: 100; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormContact #mainWrapperContactWrapperContactFormContactMessage #mainWrapperContactWrapperContactFormContactMessageSubmit #mainWrapperContactWrapperContactFormContactMessageSubmitImg { padding: 0; padding-top: 10px; padding-left: 10px; margin: 0; width: 25px; height: 25px; }
+/* desni podaci u kontakt formi, info o nama */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo { background: #333; position: absolute; top: 0; right: 0; width: 35%; height: 100%; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoHeader {  position: absolute; top: 0; left: 0; padding: 0; margin: 0; width: 100%; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoHeader #mainWrapperContactWrapperContactFormInfoHeaderPar { padding: 0; padding-left: 45px; padding-top: 40px; margin: 0; font-size: 18px; color: #fff; }
+
+/* lokacija */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoLocation {  position: absolute; top: 60px; left: 25px; width: calc(100% - 50px); height: 70px; margin: 0; margin-top: 20px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoLocation #mainWrapperContactWrapperContactFormInfoLocationImage {  position: absolute; left: 0; top: 0; width: 70px; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoLocation #mainWrapperContactWrapperContactFormInfoLocationImage #mainWrapperContactWrapperContactFormInfoLocationImageImg { position: absolute; width: 25px; height: 25px; top: 21%; left: 21%; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoLocation #mainWrapperContactWrapperContactFormInfoLocationParagraph {  position: absolute; left: 70px; width: calc(100% - 70px); height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoLocation #mainWrapperContactWrapperContactFormInfoLocationParagraph #mainWrapperContactWrapperContactFormInfoLocationParagraphPar { padding: 0; padding-left: 10px; padding-top: 25px; font-size: 12px; margin: 0; color: #fff; }
+/* broj telefona */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoPhone {  position: absolute; top: 120px; left: 25px; width: calc(100% - 50px); height: 70px; margin: 0; margin-top: 10px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoPhone #mainWrapperContactWrapperContactFormInfoPhoneImage {  position: absolute; left: 0; top: 0; width: 70px; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoPhone #mainWrapperContactWrapperContactFormInfoPhoneImage #mainWrapperContactWrapperContactFormInfoPhoneImageImg { position: absolute; width: 25px; height: 25px; top: 21%; left: 21%; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoPhone #mainWrapperContactWrapperContactFormInfoPhoneParagraph {  position: absolute; left: 70px; width: calc(100% - 70px); height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoPhone #mainWrapperContactWrapperContactFormInfoPhoneParagraph #mainWrapperContactWrapperContactFormInfoPhoneParagraphPar { padding: 0; padding-left: 10px; padding-top: 25px; font-size: 12px; margin: 0; color: #fff; }
+/* broj faksa */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoFax {  position: absolute; top: 170px; left: 25px; width: calc(100% - 50px); height: 70px; margin: 0; margin-top: 10px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoFax #mainWrapperContactWrapperContactFormInfoFaxImage {  position: absolute; left: 0; top: 0; width: 70px; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoFax #mainWrapperContactWrapperContactFormInfoFaxImage #mainWrapperContactWrapperContactFormInfoFaxImageImg { position: absolute; width: 25px; height: 25px; top: 21%; left: 21%; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoFax #mainWrapperContactWrapperContactFormInfoFaxParagraph {  position: absolute; left: 70px; width: calc(100% - 70px); height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoFax #mainWrapperContactWrapperContactFormInfoFaxParagraph #mainWrapperContactWrapperContactFormInfoFaxParagraphPar { padding: 0; padding-left: 10px; padding-top: 25px; font-size: 12px; margin: 0; color: #fff; }
+
+/* email */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoEmail {  position: absolute; top: 220px; left: 25px; width: calc(100% - 50px); height: 70px; margin: 0; margin-top: 10px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoEmail #mainWrapperContactWrapperContactFormInfoEmailImage {  position: absolute; left: 0; top: 0; width: 70px; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoEmail #mainWrapperContactWrapperContactFormInfoEmailImage #mainWrapperContactWrapperContactFormInfoEmailImageImg { position: absolute; width: 25px; height: 25px; top: 21%; left: 21%; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoEmail #mainWrapperContactWrapperContactFormInfoEmailParagraph {  position: absolute; left: 70px; width: calc(100% - 70px); height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoEmail #mainWrapperContactWrapperContactFormInfoEmailParagraph #mainWrapperContactWrapperContactFormInfoEmailParagraphPar { padding: 0; padding-left: 10px; padding-top: 25px; font-size: 12px; margin: 0; color: #fff; }
+/* social networks */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocial { position: absolute; bottom: 0; left: 0; width: 100%; height: 70px; }
+/* facebook */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialFacebook { position: absolute; bottom: 0; left: 0; width: 25%; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialFacebook #mainWrapperContactWrapperContactFormInfoSocialFacebookImage {  position: absolute; left: 25px; top: 0; width: 70px; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialFacebook #mainWrapperContactWrapperContactFormInfoSocialFacebookImage #mainWrapperContactWrapperContactFormInfoSocialFacebookImageImg { position: absolute; width: 20px; height: 20px; top: 30%; left: 25%; }
+/* youtube */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialYoutube { position: absolute; bottom: 0; left: 35px; width: 25%; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialYoutube #mainWrapperContactWrapperContactFormInfoSocialYoutubeImage {  position: absolute; left: 25px; top: 0; width: 70px; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialYoutube #mainWrapperContactWrapperContactFormInfoSocialYoutubeImage #mainWrapperContactWrapperContactFormInfoSocialYoutubeImageImg { position: absolute; width: 20px; height: 20px; top: 30%; left: 25%; }
+/* google-plus */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialGoogle { position: absolute; bottom: 0; left: 70px; width: 25%; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialGoogle #mainWrapperContactWrapperContactFormInfoSocialGoogleImage {  position: absolute; left: 25px; top: 0; width: 70px; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialGoogle #mainWrapperContactWrapperContactFormInfoSocialGoogleImage #mainWrapperContactWrapperContactFormInfoSocialGoogleImageImg { position: absolute; width: 20px; height: 20px; top: 30%; left: 25%; border-radius: 5px; }
+/* linkedin */
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialLinkedin { position: absolute; bottom: 0; left: 105px; width: 25%; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialLinkedin #mainWrapperContactWrapperContactFormInfoSocialLinkedinImage {  position: absolute; left: 25px; top: 0; width: 70px; height: 70px; }
+#mainWrapper #mainWrapperContactWrapper #mainWrapperContactWrapperContactForm #mainWrapperContactWrapperContactFormInfo #mainWrapperContactWrapperContactFormInfoSocialLinkedin #mainWrapperContactWrapperContactFormInfoSocialLinkedinImage #mainWrapperContactWrapperContactFormInfoSocialLinkedinImageImg { position: absolute; width: 20px; height: 20px; top: 30%; left: 25%; }
+#mobileMainWrapper { display: none; }
+
+
+@media screen and (max-width: 1000px){
+    #mainWrapper { display: none; }
+    #mobileMainWrapper { display: block; }
+    #mobileMainWrapper { position: absolute; left: 0; top: 100px; width: 100%; height: calc(100% - 70px); z-index: 90; }
+    #mobileMainWrapper #mobileMainWrapperHeader { position: absolute; top: 0; left: 30%; right: 30%; width: 40%; height: 50px; }
+    #mobileMainWrapper #mobileMainWrapperHeader h4 { text-align: center; margin: 0; margin-top: 10px; padding: 0; font-size: 18px; }
+    
+    #mobileMainWrapper #mobileMainWrapperContactInfo { position: absolute; left: 0; top: 65px; width: 100%; height: 200px; }
+    
+    #mobileMainWrapper #mobileMainWrapperContactInfo #mobileMainWrapperContactInfoTabs { position: relative; top: 0; left: 0; margin: 0; padding: 0; width: 100%; height: 40px; background: #fff;  }
+    #mobileMainWrapper #mobileMainWrapperContactInfo #mobileMainWrapperContactInfoTabs #mobileMainWrapperContactInfoTabsImage { position: absolute; left: 50px; top: 0; width: 30px; height: 30px; }
+    #mobileMainWrapper #mobileMainWrapperContactInfo #mobileMainWrapperContactInfoTabs #mobileMainWrapperContactInfoTabsImage img { width: 30px; height: 30px; margin-top: 5px; }
+    #mobileMainWrapper #mobileMainWrapperContactInfo #mobileMainWrapperContactInfoTabs #mobileMainWrapperContactInfoTabsParagraph { position: absolute; left: 110px; margin-top: -10px; }
+    #mobileMainWrapper #mobileMainWrapperMap { position: absolute; top: 245px; left: 0; width: 100%; height: 300px; }
+   
+    #mobileMainWrapper #mobileMainWrapperInput { position: absolute; top: 545px; left: 0; width: 100%; height: 450px; }
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputHeader { position: absolute; top: 0; left: 0; width: 100%; height: 50px; text-align: center; }
+    
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputName { position: absolute; top: 50px; left: 0; width: 100%; height: 40px; }
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputName #mobileMainWrapperInputNameInput { outline: none; width: calc(100% - 30px); height: 40px; padding: 0; margin: 0; margin-top: 20px; margin-bottom: 10px; margin-left: 10px; padding-left: 10px; border: none; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 12px; }
+    
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputPhone { position: absolute; top: 95px; left: 0; width: 100%; height: 40px; }
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputPhone #mobileMainWrapperInputPhoneInput { outline: none; width: calc(100% - 30px); height: 40px; padding: 0; margin: 0; margin-top: 20px; margin-bottom: 10px; margin-left: 10px; padding-left: 10px; border: none; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 12px; }
+    
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputEmail { position: absolute; top: 140px; left: 0; width: 100%; height: 40px; }
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputEmail #mobileMainWrapperInputEmailInput { outline: none; width: calc(100% - 30px); height: 40px; padding: 0; margin: 0; margin-top: 20px; margin-bottom: 10px; margin-left: 10px; padding-left: 10px; border: none; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 12px; }
+    
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputCompany { position: absolute; top: 185px; left: 0; width: 100%; height: 40px; }
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputCompany #mobileMainWrapperInputCompanyInput { outline: none; width: calc(100% - 30px); height: 40px; padding: 0; margin: 0; margin-top: 20px; margin-bottom: 10px; margin-left: 10px; padding-left: 10px; border: none; border-bottom: 1px solid rgba(0,0,0,0.1); font-size: 12px; }
+    
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputMessage { position: absolute; top: 250px; left: 0; width: 100%; height: 100px; }
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputMessage #mobileMainWrapperInputMessageInput { outline: none; width: calc(100% - 30px); height: 150px; border: none; border-bottom: 1px solid rgba(0,0,0,0.1); resize: none; padding: 0; padding-left: 10px; margin: 0; margin-left: 10px; font-size: 12px; }
+
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputMessage #mobileMainWrapperInputMessageSubmit { background: #00c0cd; z-index:1200; position: absolute; bottom: -70px; right: 10px; width: 50px; height: 50px; border-radius: 50%; z-index: 100; }
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputMessage #mobileMainWrapperInputMessageSubmit #mobileMainWrapperInputMessageSubmitImg { padding: 0; padding-top: 10px;  padding-left: 10px; margin: 0; width: 25px; height: 25px; }
+    #mobileMainWrapper #mobileMainWrapperInput #mobileMainWrapperInputMessage #mobileMainWrapperInputMessageSubmit:hover{cursor:pointer;}
+}
+
+@media screen and (max-height: 1400px){
+    #mainWrapper #mainWrapperContactWrapper #header{ top: 480px; }
+}
+
+@media screen and (max-height: 1200px){
+    #mainWrapper #mainWrapperContactWrapper #header{ top: 380px; }
+}
+
+@media screen and (max-height: 1050px){
+    #mainWrapper #mainWrapperContactWrapper #header{ top: 250px; }
+}
+
+@media screen and (max-height: 900px){
+    #mainWrapper #mainWrapperContactWrapper #header{ top: 180px; }
+}
+
+@media screen and (max-height: 800px){
+    #mainWrapper #mainWrapperContactWrapper #header{ top: 120px; }
+}
+
+
+@media screen and (max-height: 700px){
+    #mainWrapper #mainWrapperContactWrapper #header{ top: 40px; }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
